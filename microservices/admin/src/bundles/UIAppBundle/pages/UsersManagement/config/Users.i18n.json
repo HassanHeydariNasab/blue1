@@ -1,0 +1,59 @@
+{
+  "en": {
+    "management": {
+      "users": {
+        "fields": {
+          "updatedById": "updatedById",
+          "updatedById_description": "Represents the user's id who has made the latest update on this object",
+          "createdById": "createdById",
+          "createdById_description": "Represents the user's id who has created this object",
+          "email": "Email",
+          "fullName": "Full Name",
+          "roles": "Roles",
+          "roles_enums": {
+            "admin": "Admin",
+            "sales": "Sales",
+            "manager": "Manager",
+            "end customer": "End Customer"
+          },
+          "updatedAt": "Updated At",
+          "updatedAt_description": "Represents the last time when the object was updated",
+          "createdAt": "Created At",
+          "createdAt_description": "Represents the date when this object was created",
+          "isDeleted": "isDeleted",
+          "isDeleted_description": "This field is used to identify if this object has been soft-deleted",
+          "password": "password",
+          "password_description": "This is the model that stores password authentication data such as emails, hashed password, salt and other security related data",
+          "isEnabled": "Is Enabled",
+          "profile": "Profile",
+          "profile.firstName": "Profile — First Name",
+          "profile.lastName": "Profile — Last Name",
+          "_id": "ID",
+          "createdBy": "Created By",
+          "createdBy_description": "Represents the user who has created this object",
+          "updatedBy": "Updated By",
+          "updatedBy_description": "Represents the user who has made the latest update on this object"
+        },
+        "menu": {
+          "title": "Users"
+        },
+        "list": {
+          "header": "Users List",
+          "create_btn": "New User"
+        },
+        "create": {
+          "header": "Create User"
+        },
+        "edit": {
+          "header": "Edit User"
+        },
+        "view": {
+          "header": "View User"
+        },
+        "delete_confirmation": "You have deleted the User",
+        "create_confirmation": "You successfully added a new User",
+        "edit_confirmation": "You successfully edited the User"
+      }
+    }
+  }
+}
